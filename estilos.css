@@ -5,6 +5,24 @@
 .header{
     background-color: rgb(204, 204, 151);
 }
+@keyframes un_efecto {
+    0%{ width: 50px; }
+    5s{ width: 75px; }
+    25%{ width: 100px;}
+    50%{ width: 180px;}
+    75%{ width: 100px;}
+    100%{ width: 50px;}
+ }
+ 
+ .logoefec{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transform: rotateZ(0deg);
+
+ }
 .horarios{background-color: yellow;
 padding-bottom: 30px;}
 .tabla{text-align: center;
@@ -34,7 +52,10 @@ font-size: 25px;}
 .titulo{ font-family: Georgia, 'Times New Roman', Times, serif;
      color: white;
     background-image: linear-gradient(to bottom, #100532, #16032b, #190324, #19021d, #170318);}
-  
+    .animate__animated.animate__backInDown{
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    }
 .section{background-image: linear-gradient(to top, yellow, red );}
 .atencion{text-align: center;
     background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
