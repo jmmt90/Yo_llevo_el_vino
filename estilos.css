@@ -5,7 +5,6 @@
 .header{
     background-color: rgb(204, 204, 151);
 }
-
 .horarios{background-color: yellow;
 padding-bottom: 30px;}
 .tabla{text-align: center;
@@ -35,10 +34,7 @@ font-size: 25px;}
 .titulo{ font-family: Georgia, 'Times New Roman', Times, serif;
      color: white;
     background-image: linear-gradient(to bottom, #100532, #16032b, #190324, #19021d, #170318);}
-    .animate__animated.animate__backInDown{
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
-    }
+  
 .section{background-image: linear-gradient(to top, yellow, red );}
 .atencion{text-align: center;
     background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
